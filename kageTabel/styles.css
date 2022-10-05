@@ -1,0 +1,126 @@
+@font-face {
+	font-family: 'Volte regular';
+	src: url("/assets/Volte/IndianTypeFoundry-Volte.otf") format("opentype");
+}
+@font-face {
+	font-family: 'Volte bold';
+	src: url("/assets/Volte/Indian-Type-Foundry-VolteBold.otf") format("opentype");
+}
+@font-face {
+	font-family: 'Volte semibold';
+	src: url("/assets/Volte/IndianTypeFoundry-Volte\Semibold.otf") format("opentype");
+}
+
+.table-container {
+	margin: 20px;
+	background-color: #ECF0EC;
+	display: table;
+    padding: 60px;
+	color: #3E4D3E;
+	animation: 1s ease-out 0s 1 slideInFromLeft;
+}
+
+.company-logo {
+	height: 20px;
+}
+
+.sorting-logo {
+	height: 10px;
+    margin-left: 1px;
+	cursor: pointer;
+}
+
+.title {
+	font-size: 36px;
+	font-family: "Volte semibold";
+}
+@media screen and (min-width: 650px) {
+    .title {
+        font-size: 64px;
+    }
+}
+
+table {
+	border-collapse: collapse;
+}
+
+th{
+	padding-right: 15px;
+	font-family: "Volte bold";
+}
+
+.th1 {
+	text-align: left;
+	border-bottom: 2px solid black;
+}
+
+.th2 {
+	display: none;
+}
+
+.th1, td {
+	padding: 10px 35px 10px 0;
+}
+
+td{
+	font-family: "Volte regular";
+}
+
+
+tr {
+	border-bottom: 1px solid black;
+}
+
+p {
+    max-width: 300px;
+    font-size: 20px;
+}
+@media screen and (min-width: 650px) {
+    p {
+        font-size: 28px;
+        max-width: 600px;
+    }
+}
+
+
+@media screen and (max-width: 649px) {
+	.th1 {
+		display: none;
+	}
+
+	.th2{ 
+		display: flex;
+		flex-direction: column;
+	}
+
+	th{
+		padding: 10px 35px 10px 0;
+		text-align: left;
+	}
+
+	table {
+		display: flex;
+		flex-direction: row;
+	}
+
+	tr{
+		margin-bottom: 15px;
+		display: flex;
+		flex-direction: column;
+	}
+
+	td {
+		text-align: left;
+		position: relative;
+	}
+}	
+
+
+@keyframes slideInFromLeft {
+	0% {
+	  transform: translateX(-100%);
+	}
+	100% {
+	  transform: translateX(0);
+	}
+  }

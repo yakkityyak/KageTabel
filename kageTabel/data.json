@@ -1,0 +1,43 @@
+
+    [
+        {
+            "id": 1,
+            "name": "Romkugler",
+            "kcal": 399,
+            "fat": 16.4,
+            "carbohydrates": 61.6,
+            "protein": 4.8
+        },
+        {
+            "id": 2,
+            "name": "Kransekage",
+            "kcal": 443,
+            "fat": 20.3,
+            "carbohydrates": 57.6,
+            "protein": 8.2
+        },
+        {
+            "id": 3,
+            "name": "Drømmekage",
+            "kcal": 472,
+            "fat": 26,
+            "carbohydrates": 56,
+            "protein": 3.8
+        },
+        {
+            "id": 4,
+            "name": "Banankage",
+            "kcal": 446,
+            "fat": 24.1,
+            "carbohydrates": 53.6,
+            "protein": 4.5
+        },
+        {
+            "id": 5,
+            "name": "Gifler med kanel",
+            "kcal": 363,
+            "fat": 14,
+            "carbohydrates": 57,
+            "protein": 7
+        }
+    ]

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="da">
+	<head>
+		<meta charset="utf-8" />
+		<title>Frontend Case</title>
+
+		<link rel="stylesheet" href="normalize.css" />
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+
+	<body>
+		<article class="table-container">
+			<img class="company-logo" src="assets/immeo-pos-logo.svg" />
+
+			<h2 class="title">Kagekalorietabel</h2>
+
+			<p>
+				Brug nedenstående tabel til at finde ud af, hvilken kage du skal fokusere
+				på for at opnå et givent event
+			</p>
+
+			<table class="table" id="table">
+				<thead class="th1">
+					<th>
+						KAGE<img id="table_sorting" class="sorting-logo" src="assets/sorting-icon.svg" />
+					</th>
+					<th>
+						FEDT<img class="sorting-logo" src="assets/sorting-icon.svg" />
+					</th>
+					<th>
+						PROTEIN<img class="sorting-logo" src="assets/sorting-icon.svg" />
+					</th>
+					<th>
+						KULHYDRAT<img class="sorting-logo" src="assets/sorting-icon.svg" />
+					</th>
+				</thead>
+
+				<thead class="th2">
+                    <tr>
+                        <th>Kage:</th>
+                        <th>Fedt:</th>
+                        <th>Protein:</th>
+                        <th>Kulhydrat:</th>
+                    </tr>
+                    <tr class="hide">
+                        <th>Kage:</th>
+                        <th>Fedt:</th>
+                        <th>Protein:</th>
+                        <th>Kulhydrat:</th>
+                    </tr>
+                    <tr class="hide">
+                        <th>Kage:</th>
+                        <th>Fedt:</th>
+                        <th>Protein:</th>
+                        <th>Kulhydrat:</th>
+                    </tr>
+                    <tr class="hide">
+                        <th>Kage:</th>
+                        <th>Fedt:</th>
+                        <th>Protein:</th>
+                        <th>Kulhydrat:</th>
+                    </tr>
+                    <tr class="hide">
+                        <th>Kage:</th>
+                        <th>Fedt:</th>
+                        <th>Protein:</th>
+                        <th>Kulhydrat:</th>
+                    </tr>
+                
+                </thead>
+
+				
+				<tbody id="table_body">
+					<tr>
+						<td></td>
+					</tr>
+				</tbody>
+			</table>
+		</article>
+
+		<script src="scripts.js"></script>
+	</body>
+</html>
